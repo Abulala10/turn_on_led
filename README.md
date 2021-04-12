@@ -1,4 +1,4 @@
-# turn_on_led
+turn_on_led
 # Simple Raspberry pi project that turns on and off led.
 # Client Side code is on the Computer which sends tcp/ip packets whether to switch oon led or not.
 # Server side code is on Raspberry pi.
