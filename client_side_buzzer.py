@@ -1,12 +1,12 @@
 import socket
 
-_host = '192.168.225.130'
+_host = 'Enter your Raspberry pi ip address'  # Ip Address of Raspberry pi Eg 127.0.0.1
 _port = 8080
 print('>>> Welcome Abulala Shaikh.\n>>> Simple program to turn the lights on and off from another computer.'
       '\n>>> Developer : ABULALA SHAIKH.\n')
 
 try:
-    sock = socket.socket()
+    sock = socket.socket()  # Tcp/Ip conectivity
 except Exception as e:
     print("Failed TCP/IP Connection", e)
 
